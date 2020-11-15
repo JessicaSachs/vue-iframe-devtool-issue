@@ -32,7 +32,7 @@ yarn serve
 
 1. Open index.html in server
 1. See that devtools doesn't light up
-1. Navigate to index.html directly, see that devtools lights
+1. Navigate to iframe.html directly, see that devtools lights
 
 ## Branches
 
