@@ -14,14 +14,25 @@ Vue devtools doesn't detect Vue on the page.
 
 Telling the child iframe to reach up into the parent window and bind certain globals like the root Vue node or Vue module (perhaps I'm not binding the right stuff? Maybe there's a Devtools.refresh() kinda function I need to call?)
 
-## Reproduction
+## Steps to reproduce
 
-There are two files:
-1. index.html
-2. iframe.html
+1. Install latest devtools for 2.x and 3.x (depending on what branch you're on)
 
-Iframe loads a root vue instance and mounts
-Index loads iframe.html in an iframe
+1. Install deps
+
+```bash
+yarn install
+```
+
+1. Start static server
+
+```bash
+yarn serve
+```
+
+1. Open index.html in server
+1. See that devtools doesn't light up
+1. Navigate to index.html directly, see that devtools lights
 
 ## Branches
 
