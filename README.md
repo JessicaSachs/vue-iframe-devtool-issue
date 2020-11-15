@@ -36,6 +36,8 @@ yarn serve
 
 ## Branches
 
-2.x - Latest Vue 2 script
-3.x - Latest Vue 3 script
-external - Demo of external devtools failing with Vue 2
+* 2.x - Latest Vue 2 script
+
+* 3.x - Latest Vue 3 script
+
+* external - Demo of external devtools failing with Vue 2
